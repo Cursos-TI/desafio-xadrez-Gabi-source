@@ -49,4 +49,9 @@ int main() {
     } while (contadorRainha < casasRainha);
 
     return 0;
-}
+
+Torre → for porque sabemos exatamente o número de repetições de antemão.
+
+Bispo → while porque controlamos o contador até atingir o número desejado.
+
+Rainha → do-while para garantir que pelo menos uma jogada seja impressa antes da verificação da condição.
